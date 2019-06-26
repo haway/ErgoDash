@@ -37,7 +37,7 @@ Install 1kΩ resistor in silk rectangle as noted 。(Silk screen notation is imp
 Install 470Ω resistors
 <img width="700" alt="470" src="https://github.com/omkbd/picture/blob/master/Resistor.jpg">
 
--Note: Photo has a few surface mount resistors combined with through-hole
+- Note: Photo has a few surface mount resistors combined with through-hole
 **(Rev 1.1) For the resistor found under the pro-micro: a surface mount resistor, or installing resistor on opposite side may be preferred to prevent interference (moved in rev 1.2)**
 
 ## 3 TRRS Jack
@@ -67,12 +67,12 @@ Attach the LED chip so that the cut on both sides matches the silk.
 ~~-On Master half, LED corner will Match the silkscreen~~  
 ~~-On Slave half, LED corner needs to be 180 from silkscreen~~  
 
--Installation notes:
-  -use tape to hold in place, solder one side, remove tape, then solder other
-  -Notes from first time soldering with these LED:
-    -I attempted to pre-solder pads with bad results (As recommended for other surface mount I did before)
-    -Leaving iron on too long appeared to melt the casing of the LED (Use fine tip if you have it? I didnt)
-    -1sec on pad to pre-heat, then off and come back with iron and solder is what worked best for me
+- Installation notes:
+  - use tape to hold in place, solder one side, remove tape, then solder other
+  - Notes from first time soldering with these LED:
+    - I attempted to pre-solder pads with bad results (As recommended for other surface mount I did before)
+    - Leaving iron on too long appeared to melt the casing of the LED (Use fine tip if you have it? I didnt)
+    - 1sec on pad to pre-heat, then off and come back with iron and solder is what worked best for me
 
 <img width="400" alt="RGB_Left" src="https://github.com/omkbd/picture/blob/master/RGB_Left.jpg">
 <img width="700" alt="RGB_Left_Finish" src="https://github.com/omkbd/picture/blob/master/RGB_Left_Finish.jpg">
@@ -107,16 +107,16 @@ After the first 4 are soldered in, install remaining switches.
 Install the LEDs from the top on each switch
 Round Pad  anode（＋）(Long LED Leg)
 Square Pad  cathode（-) (Short Leg)
--Can be installed later (Except for the LED under pro-micro)
+- Can be installed later (Except for the LED under pro-micro)
 
 ## 10 Pro Micro Install
 **Before proceding connect the Pro Micro to a PC via USB and confirm it's working.**
--Confirm the TX0 lines up (USB port sandwiched between both PCBs)
--Check that all solder connections underneath the Pro Micro are done.
--Confirm no contact between Pro Micro and components (add insulating tape if desired)
--For spring headers, solder is required on the Pro Micro side.
--After installation, confirm the Pro Micro is properly seated. If not, cut the legs of the switch under the Pro Micro slightly.
--Trim headers after testing.
+- Confirm the TX0 lines up (USB port sandwiched between both PCBs)
+- Check that all solder connections underneath the Pro Micro are done.
+- Confirm no contact between Pro Micro and components (add insulating tape if desired)
+- For spring headers, solder is required on the Pro Micro side.
+- After installation, confirm the Pro Micro is properly seated. If not, cut the legs of the switch under the Pro Micro slightly.
+- Trim headers after testing.
 
 ## 11 Case Assembly
 Install the 5mm and 6mm spacers from the top。
